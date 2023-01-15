@@ -4,14 +4,14 @@
 
 ## Table Of Content
 
-* OOP & Advantages
-* OOP 4 features
-* SOLID
-    * Single Resposibility Principle
-    * Open Closed Principle
-    * Liskov Substitution Principle
-    * Interface Segregation Principle
-    * Dependency Inversion Principle
+* [OOP & Advantages](https://github.com/haha1haka/Swift-OOP-SOLID#oop--advantages)
+* [OOP 4 features](https://github.com/haha1haka/Swift-OOP-SOLID#oop-4-features)
+* [SOLID](https://github.com/haha1haka/Swift-OOP-SOLID#solid)
+    * [Single Resposibility Principle](https://github.com/haha1haka/Swift-OOP-SOLID#single-resposibility-principle)
+    * [Open Closed Principle](https://github.com/haha1haka/Swift-OOP-SOLID#open-closed-principle)
+    * [Liskov Substitution Principle](https://github.com/haha1haka/Swift-OOP-SOLID#liskov-substitution-principle)
+    * [Interface Segregation Principle](https://github.com/haha1haka/Swift-OOP-SOLID#interface-segregation-principle)
+    * [Dependency Inversion Principle](https://github.com/haha1haka/Swift-OOP-SOLID#dependency-inversion-principle)
 
 <br/><br/>
 
