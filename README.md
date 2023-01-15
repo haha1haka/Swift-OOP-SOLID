@@ -519,7 +519,7 @@ class GoalKeeper: blockAble, tackleAble  {
 * 상위 모듈의 하위 모듈에 의존하면 안되고, 추상체에 의존하게 해야 한다.
 * 즉 구현체 끼리 의존하지 말고 추상화된 인터페이스에 의존 하자는것
 
-![스크린샷 2023-01-13 00.14.56](/Users/haha1haka/Desktop/Workspace/정리정리정리/0.imageServer/스크린샷 2023-01-13 00.14.56.png)
+<img width="782" alt="스크린샷 2023-01-15 19 14 53" src="https://user-images.githubusercontent.com/106936018/212535053-25f2f964-f070-4cb0-9752-f14dc5493ea4.png">
 
 * Without DIP Diagram 에서 상위 모듈(구현체)은 하위 모듈에 의존 하는 식으로 진행
 * 이때 Swift 파일이 3500개면 어질어질
@@ -568,6 +568,12 @@ class Soldier {
 let soldier = Soldier(name: "jack", hp: 999)
 ```
 
+<img width="783" alt="스크린샷 2023-01-15 19 15 00" src="https://user-images.githubusercontent.com/106936018/212535055-a688201e-93c8-4479-aa0a-52e1cd6d3506.png">
+
+
+
+
+
 <u>*After*</u>
 
 ```swift
@@ -615,6 +621,16 @@ class Soldier {
 let k2 = Gun(damage: 12)
 let soldier1 = Soldier(name: "jack", hp: 999, weapon: k2)
 ```
+
+<img width="794" alt="스크린샷 2023-01-15 19 15 08" src="https://user-images.githubusercontent.com/106936018/212535066-23042450-4848-46c4-9652-91e3bedac817.png">
+
+
+
+
+
+
+
+
 
 <br/>
 
